@@ -1,6 +1,6 @@
-# Project Title
+# Template Builder
 
-One Paragraph of project description goes here
+This is the backend code for template builder
 
 ## Getting Started
 
