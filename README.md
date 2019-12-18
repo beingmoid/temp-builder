@@ -22,11 +22,18 @@ Say what the step will be
 
 
 
+1)clone and build the project
+2)Change ConnectionString from appsetting.json
+```
+ "ConnectionString": {
+    "FormBuilderDb": "Data Source=YourServerNameHere;Initial Catalog=FormBuilderDb;Integrated Security=True;"
+  },
 
 ```
-clone and build the project
-change connectionString from appsetting.json
-run command
+
+And then open Nuget Pakage Manager and run command
+```
+
 update-database
 ```
 
